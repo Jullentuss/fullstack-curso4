@@ -31,8 +31,7 @@ Bicicleta.removeById = (id) => {
   }
 }
 
-let a = new Bicicleta(1, 'rojo', 'corleone', [4.701314,-74.1100076,])
-
-Bicicleta.add(a);
+/* let a = new Bicicleta(1, 'rojo', 'corleone', [4.701314,-74.1100076,])
+Bicicleta.add(a); */
 
 module.exports = Bicicleta;
