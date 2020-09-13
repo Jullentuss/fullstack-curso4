@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var bicicletasRouter = require('./routes/bicicletas');
 var bicicletasAPIRouter = require('./routes/api/bicicletas');
 
+let db = require('./bin/mongo');
 var app = express();
 
 // view engine setup
